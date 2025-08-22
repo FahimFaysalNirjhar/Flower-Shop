@@ -148,3 +148,34 @@ header {
   text-underline-offset: auto;
   text-underline-position: auto;
 }
+/* delivery related styles */
+.delivery {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.delivery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 80px 100px;
+}
+/* .delivery-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} */
+.delivery-title {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px; /* 145.833% */
+}
+.delivery-img-container {
+  text-align: center;
+}
