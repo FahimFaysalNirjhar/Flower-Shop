@@ -56,3 +56,95 @@ header {
   line-height: 30px; /* 166.667% */
   margin-bottom: 32px;
 }
+/* feature related styles */
+.feature-description {
+  margin: 100px auto;
+  max-width: 594px;
+}
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.feature-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.feature-container {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+  justify-content: center;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.feature-img-container-pink {
+  border-radius: 300px 300px 0 0;
+  background: rgba(167, 33, 98, 0.15);
+  /* padding: 70px 70px 0 70px; */
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 300px;
+  height: 300px;
+}
+.feature-img-container-pink img {
+  width: 60%;
+  vertical-align: middle;
+  object-fit: contain;
+}
+.feature-img-container-pest {
+  border-radius: 300px 300px 0 0;
+  background: rgba(5, 151, 160, 0.15);
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+.feature-img-container-pest img {
+  width: 70%;
+  vertical-align: middle;
+  object-fit: contain;
+}
+.feature-img-container-yellow {
+  border-radius: 300px 300px 0 0;
+  background: rgba(71, 125, 17, 0.15);
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 300px;
+  height: 300px;
+}
+.feature-img-container-yellow img {
+  width: 60%;
+  vertical-align: middle;
+  object-fit: contain;
+}
+.ancor-style {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: auto;
+}
