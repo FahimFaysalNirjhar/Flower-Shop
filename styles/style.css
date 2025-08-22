@@ -1,0 +1,58 @@
+/* google font for all the elements */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 89%;
+  margin: 0 auto;
+}
+.btn-style {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* header related styles */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+/* hero related styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.hero-img-container img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+.hero-description {
+  width: 625px;
+}
+.hero-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+.hero-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 32px;
+}
