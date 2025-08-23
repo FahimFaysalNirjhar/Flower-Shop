@@ -274,7 +274,15 @@ header {
   background-image: url(../flowerasset/rectangle\ 9.png);
   border-radius: 8px;
   padding: 100px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+/* .latest-deal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 .latest-deal-description {
   display: flex;
   flex-direction: column;
@@ -318,3 +326,8 @@ form input[type="email"] {
   font-size: 16px;
   font-weight: 400;
 }
+/* .test-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
