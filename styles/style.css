@@ -265,3 +265,56 @@ header {
   height: 300px;
   object-fit: contain;
 }
+/* latest deal section  */
+.latest-deal {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.latest-deal .container {
+  background-image: url(../flowerasset/rectangle\ 9.png);
+  border-radius: 8px;
+  padding: 100px 0;
+}
+.latest-deal-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.latest-deal-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.latest-deal-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+form input[type="email"] {
+  width: 400px;
+  border: none;
+  padding: 25px;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
